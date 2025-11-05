@@ -115,14 +115,7 @@ Calibration was performed using several algorithms, including both **statistical
 
 ---
 
-## 🚀 Future Work
 
-- Extend calibration to gaseous pollutants (NO₂, CO, O₃).  
-- Real-time sensor correction on embedded microcontrollers.  
-- Evaluate long-term drift compensation models.  
-- Explore deep learning architectures (LSTM, CNN) for dynamic calibration.
-
----
 
 ## 🧑‍💻 Author
 
@@ -131,8 +124,8 @@ Under the guidance of **Dr. Prateek Kala**
 Department of Mechanical Engineering,  
 Birla Institute of Technology and Science (BITS) Pilani, India  
 
-📧 *venkatchandan@example.com*  
-📄 [LinkedIn Profile / Personal Website] *(optional)*
+📧 *jakkavenkatchandan@gmail.com*  
+📄 [[LinkedIn Profile /] ](https://www.linkedin.com/in/jakka-venkat-chandan-4269b124a/)
 
 ---
 
@@ -145,6 +138,7 @@ Birla Institute of Technology and Science (BITS) Pilani, India
 - **Jupyter Notebooks**
 - **Git/GitHub** for version control
 - **Excel** for experimental data management
+- **Different Types of Sensors**
 
 ---
 
