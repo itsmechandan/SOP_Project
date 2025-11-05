@@ -91,41 +91,32 @@ Calibration was performed using several algorithms, including both **statistical
 
 ### 🔍 Current Files in This Repository
 
-├── Data/
-│ ├── Predicted_Data/
-│ │ ├── Bits main gate/
-│ │ ├── Bus stand/
-│ │ ├── Dust Incense/
-│ │ ├── Evening walk/
-│ │ ├── Good Night/
-│ │ ├── High_Conc/
-│ │ ├── KITCHEN/
-│ │ ├── LOW_CONC/
-│ │ └── Main_gate/
-│ │
-│ └── Raw Data/
-│ ├── Bits_Main_Gate.xlsx
-│ ├── Bus Stand.xlsx
-│ ├── Dust$Incense.xlsx
-│ ├── Evening walk and Good night.xlsx
-│ ├── Good night experiment.xlsx
-│ ├── High_Conc_Exp.xlsx
-│ ├── Honeywell_01_prediction copy.xlsx
-│ └── Honeywell_01_prediction.xlsx
-│
-├── Notebooks/
-│ ├── Calibration_1.ipynb
-│ ├── Calibration_2.ipynb
-│ ├── Calibration_3.py
-│ ├── Calibration_4.py
-│ ├── Calibration_5.ipynb
-│ ├── Calibration_6.ipynb
-│ └── Calibration_7.ipynb
-│
-├── INCOTHERM 2025_submission_63_paper_v2.pdf
-├── requirements.txt
-├── .gitattributes
-└── README.md
+| Old File / Folder Name                      | New Path / Name                                   |
+| ------------------------------------------- | ------------------------------------------------- |
+| `Calibration_1.ipynb`                       | `Notebooks/01_random_forest_calibration.ipynb`    |
+| `Calibration_2.ipynb`                       | `Notebooks/02_linear_quadratic_calibration.ipynb` |
+| `Calibration_3.py`                          | `Notebooks/03_svr_calibration.py`                 |
+| `Calibration_4.py`                          | `Notebooks/04_xgboost_calibration.py`             |
+| `Calibration_5.ipynb`                       | `Notebooks/05_ann_calibration.ipynb`              |
+| `Calibration_6.ipynb`                       | `Notebooks/06_combined_calibration.ipynb`         |
+| `Calibration_7.ipynb`                       | `Notebooks/07_final_model_comparison.ipynb`       |
+| `Data/Raw Data/`                            | `Data/Raw_Data/` (rename for consistency)         |
+| `Data/Predicted_Data/Bits main gate`        | `Data/Predicted_Data/Bits_Main_Gate/`             |
+| `Data/Predicted_Data/Bus stand`             | `Data/Predicted_Data/Bus_Stand/`                  |
+| `Data/Predicted_Data/Dust Incense`          | `Data/Predicted_Data/Dust_Incense/`               |
+| `Data/Predicted_Data/Evening walk`          | `Data/Predicted_Data/Evening_Walk/`               |
+| `Data/Predicted_Data/Good Night`            | `Data/Predicted_Data/Good_Night/`                 |
+| `Data/Predicted_Data/High_Conc`             | (keep same)                                       |
+| `Data/Predicted_Data/KITCHEN`               | `Data/Predicted_Data/Kitchen/`                    |
+| `Data/Predicted_Data/LOW_CONC`              | `Data/Predicted_Data/Low_Conc/`                   |
+| `Data/Predicted_Data/Main_gate`             | `Data/Predicted_Data/Main_Gate/`                  |
+| `INCOTHERM 2025_submission_63_paper_v2.pdf` | `Reports/INCOTHERM_2025_Paper.pdf`                |
+| `.gitignore` *(optional, create new)*       | `.gitignore`                                      |
+| `.gitattributes`                            | (remove — not required unless needed)             |
+| `README.md`                                 | (keep in main folder)                             |
+| `requirements.txt` *(new)*                  | (keep in main folder)                             |
+| `venv/` *(new virtual environment)*         | (auto-created locally, ignored in GitHub)         |
+
 
 ## 📈 Sample Results (Placeholder)
 
