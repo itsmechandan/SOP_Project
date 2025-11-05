@@ -91,17 +91,41 @@ Calibration was performed using several algorithms, including both **statistical
 
 ### 🔍 Current Files in This Repository
 
-| File | Description |
-|------|--------------|
-| `Asli_Project.ipynb` | Initial preprocessing and model tests |
-| `Combined.ipynb` | Combined model results |
-| `datavisualisation&rrf.ipynb` | Visualization and Random Forest analysis |
-| `svr(1v1).ipynb` / `svr(combined).ipynb` | SVR calibration notebooks |
-| `Xgboost(1v1).ipynb` | XGBoost calibration model |
-| `Sensor_data.ipynb` | Data preparation and merging |
-| `INCOTHERM_2025_submission_63_paper.pdf` | Conference paper submission |
-
----
+├── Data/
+│ ├── Predicted_Data/
+│ │ ├── Bits main gate/
+│ │ ├── Bus stand/
+│ │ ├── Dust Incense/
+│ │ ├── Evening walk/
+│ │ ├── Good Night/
+│ │ ├── High_Conc/
+│ │ ├── KITCHEN/
+│ │ ├── LOW_CONC/
+│ │ └── Main_gate/
+│ │
+│ └── Raw Data/
+│ ├── Bits_Main_Gate.xlsx
+│ ├── Bus Stand.xlsx
+│ ├── Dust$Incense.xlsx
+│ ├── Evening walk and Good night.xlsx
+│ ├── Good night experiment.xlsx
+│ ├── High_Conc_Exp.xlsx
+│ ├── Honeywell_01_prediction copy.xlsx
+│ └── Honeywell_01_prediction.xlsx
+│
+├── Notebooks/
+│ ├── Calibration_1.ipynb
+│ ├── Calibration_2.ipynb
+│ ├── Calibration_3.py
+│ ├── Calibration_4.py
+│ ├── Calibration_5.ipynb
+│ ├── Calibration_6.ipynb
+│ └── Calibration_7.ipynb
+│
+├── INCOTHERM 2025_submission_63_paper_v2.pdf
+├── requirements.txt
+├── .gitattributes
+└── README.md
 
 ## 📈 Sample Results (Placeholder)
 
