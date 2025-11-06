@@ -1,4 +1,4 @@
-# 🧪 Performance Evaluation of Low-Cost Sensors Under Different Aerosols
+# Performance Evaluation of Low-Cost Sensors Under Different Aerosols
 
 **Authors:** Deepali Agrawal¹, Jakka Venkat Chandan¹, Anil Kumar Saini², Aakash C. Rai³, and Prateek Kala¹  
 **Affiliations:**  
@@ -8,14 +8,14 @@
 
 ---
 
-## 🏷️ Conference
+## Conference
 **1st International Conference on Thermofluids Engineering (INCOTHERM 2025)**  
 *IIT (ISM) Dhanbad, October 10th–11th, 2025*  
 **Paper ID:** INCOTHERM2025–063
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains the **machine learning calibration work** for the research paper  
 **“Performance Evaluation of Low-Cost Sensors Under Different Aerosols.”**
@@ -26,7 +26,7 @@ By leveraging **machine learning models**, we aim to improve their performance r
 
 ---
 
-## 🌫️ Research Summary
+## Research Summary
 
 The study evaluates the performance of low-cost sensors under **four aerosol conditions**:
 
@@ -40,7 +40,7 @@ Calibration was performed using several algorithms, including both **statistical
 
 ---
 
-## ⚙️ Sensors Used
+## Sensors Used
 
 | Category | Model | Description |
 |-----------|--------|-------------|
@@ -50,7 +50,7 @@ Calibration was performed using several algorithms, including both **statistical
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 1. **Data Collection**
    - Parallel measurement using Plantower and Sensirion sensors alongside GRIMM 11-A.
@@ -75,7 +75,7 @@ Calibration was performed using several algorithms, including both **statistical
 
 ---
 
-## 📊 Key Observations
+## Key Observations
 
 - **Machine learning models** significantly outperformed linear and quadratic calibration.  
 - **Sensirion SPS30** showed the best agreement with GRIMM 11-A, with RMSE values < 7 µg/m³.  
@@ -86,10 +86,10 @@ Calibration was performed using several algorithms, including both **statistical
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 
-### 🔍 Current Files in This Repository
+### Current Files in This Repository
 
 | Old File / Folder Name                      | New Path / Name                                   |
 | ------------------------------------------- | ------------------------------------------------- |
@@ -118,7 +118,7 @@ Calibration was performed using several algorithms, including both **statistical
 | `venv/` *(new virtual environment)*         | (auto-created locally, ignored in GitHub)         |
 
 
-## 📈 Sample Results (Placeholder)
+## Sample Results (Placeholder)
 
 | Model | R² | RMSE (µg/m³) | MAE (µg/m³) |
 |--------|----|---------------|--------------|
@@ -132,7 +132,7 @@ Calibration was performed using several algorithms, including both **statistical
 
 
 
-## 🧑‍💻 Author
+## Author
 
 **Jakka Venkat Chandan**  
 Under the guidance of **Dr. Prateek Kala**  
@@ -147,7 +147,7 @@ Birla Institute of Technology and Science (BITS) Pilani, India
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Python** (NumPy, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn)
 - **Jupyter Notebooks**
